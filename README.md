@@ -1,22 +1,35 @@
-🩺 HealthCare ChatBot
-A simple yet intelligent AI-powered Disease Prediction Chatbot built with Python, scikit-learn, and pandas.
+# 🩺 HealthCare ChatBot
+
+A simple yet intelligent **AI-powered Disease Prediction Chatbot** built with Python, scikit-learn, and pandas.
 
 It analyzes your symptoms and helps predict possible diseases with precautions and useful information.
 
-✨ Features
-Natural Language Symptom Input – Describe your symptoms in plain English
-Smart Symptom Extraction – Handles synonyms, typos, and fuzzy matching
-Machine Learning Model – Trained using Random Forest Classifier
-Interactive Guided Questions – Asks follow-up questions based on predicted disease
-Severity & Duration Analysis
-Precautions & Disease Description
-Empathetic & Friendly Interface
-🛠️ Tech Stack
-Python 3
-pandas & numpy
-scikit-learn (RandomForestClassifier)
-difflib (for fuzzy matching)
-📁 Project Structure
+---
+
+## ✨ Features
+
+- **Natural Language Symptom Input** – Describe your symptoms in plain English
+- **Smart Symptom Extraction** – Handles synonyms, typos, and fuzzy matching
+- **Machine Learning Model** – Trained using **Random Forest Classifier**
+- **Interactive Guided Questions** – Asks follow-up questions based on predicted disease
+- **Severity & Duration Analysis**
+- **Precautions & Disease Description**
+- **Empathetic & Friendly Interface**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3**
+- **pandas** & **numpy**
+- **scikit-learn** (RandomForestClassifier)
+- **difflib** (for fuzzy matching)
+
+---
+
+## 📁 Project Structure
+
+```bash
 HealthCare-ChatBot/
 ├── Data/
 │   ├── Training.csv
